@@ -1,0 +1,39 @@
+# Security and Credentials
+Git PAT
+.env
+*.pem
+*.key
+*.token
+
+# Python Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Model and Data Artifacts
+artifacts/
+*.db
+*.sqlite
+*.sqlite3
+
+# Python Caches & Build Files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd.bak
+
+# Testing & Linting Tools
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.log
+
+# OS & Editor Files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
